@@ -19,7 +19,7 @@ class MessagePage extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: [
             Text(
-              'Type Something',
+              'Type Somethingggggggg',
               style: subtitleTextStyle,
             ),
             Icon(Icons.send)
