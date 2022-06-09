@@ -10,19 +10,19 @@ class MessagePage extends StatelessWidget {
     Widget chatInput() {
       return Container(
         width: MediaQuery.of(context).size.width - (2 * 30),
-        padding: EdgeInsets.all(16),
+        padding: const EdgeInsets.all(16),
         decoration: BoxDecoration(
-          color: Color(0xffFFFFFF),
+          color: const Color(0xffFFFFFF),
           borderRadius: BorderRadius.circular(75),
         ),
         child: Row(
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: [
             Text(
-              'Type Somethingggggggg',
+              'Versiyon kontrol denemesi',
               style: subtitleTextStyle,
             ),
-            Icon(Icons.send)
+            const Icon(Icons.send)
           ],
         ),
       );
